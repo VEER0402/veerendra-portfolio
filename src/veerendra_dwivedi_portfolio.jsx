@@ -86,9 +86,13 @@ export default function VeerendraPortfolio() {
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">Who I am</h4>
               <ul className="mt-3 text-gray-300 space-y-2 list-disc list-inside">
-                <li>Disciplined and consistent — 6-day fitness routine feeds my focus</li>
-                <li>Calm under pressure, dependable in production incidents</li>
-                <li>Driven by mastery, stability, and long-term engineering excellence</li>
+                <li>Disciplined and consistent — my 6-day fitness routine builds the same focus and reliability I bring to engineering.</li>
+                <li>Calm under pressure — I stay composed in production incidents, prioritize clearly, and execute without panic.</li>
+                <li>Driven by mastery and long-term growth — I prefer depth, fundamentals, and scalable solutions over shortcuts.</li>
+		<li>High ownership mindset — I take responsibility end-to-end, from debugging to deployment to documentation.</li>
+		<li>Structured thinker — I break complex problems into clean, predictable workflows and automate them.</li>
+		<li>Resilient and dependable — setbacks don’t stop me; I rebuild, improve, and come back stronger every time.</li>
+
               </ul>
             </div>
           </div>
