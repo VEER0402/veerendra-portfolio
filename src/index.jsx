@@ -1,7 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import VeerendraPortfolio from "./VeerendraPortfolio";
-import "./index.css";
+import "./tailwind-output.css";
+import VeerendraPortfolio from "./veerendra_dwivedi_portfolio";
 
-const root = createRoot(document.getElementById("root"));
+const container = document.getElementById("root");
+const root = createRoot(container);
 root.render(<VeerendraPortfolio />);
