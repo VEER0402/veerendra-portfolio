@@ -254,7 +254,7 @@ export default function VeerendraPortfolio() {
                   <h4 className="font-semibold">UI Developer — TCS (2021–2022)</h4>
                   <p className="text-sm text-gray-400 mt-1">Built UI modules using TypeScript, HTML and CSS; collaborated with backend teams for production-ready components.</p>
                 </div>
-                <div className="text-sm text-gray-400">2022–2024</div>
+                <div className="text-sm text-gray-400">2021–2022</div>
               </div>
 
               <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
