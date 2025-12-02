@@ -276,7 +276,7 @@ export default function VeerendraPortfolio() {
         <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
             <h3 className="text-2xl font-bold">Resume</h3>
-            <p className="mt-2 text-gray-400">Download a concise resume highlighting DevOps experience, technical skills, projects and education.</p>
+            
 
             <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
               <li>DevOps experience: automation, CI/CD, Kubernetes, Terraform</li>
