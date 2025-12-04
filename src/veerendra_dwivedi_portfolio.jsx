@@ -196,6 +196,12 @@ export default function VeerendraPortfolio() {
                 link: "https://github.com/VEER0402/Certifications"
               },
               {
+                title: "Node App AWS Deployment",
+                desc: "Created IAM role , EC2 Instances and deployed it on AWS.",
+                tech: ["Node","NPM","EC2"],
+                link: "https://github.com/VEER0402/aws-session"
+              },
+		       {
                 title: "Future DevOps Projects",
                 desc: "Placeholders for upcoming work: infra-as-code examples, advanced CI patterns, SRE experiments.",
                 tech: ["TBD"],
