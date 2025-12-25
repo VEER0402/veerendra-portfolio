@@ -1,4 +1,12 @@
 import React from "react";
+const projectStyles = {
+  ci: "border-blue-500/40 hover:border-green-400",
+  infra: "border-purple-500/40 hover:border-purple-400",
+  automation: "border-orange-500/40 hover:border-orange-400",
+  aws: "border-cyan-500/40 hover:border-cyan-400",
+  frontend: "border-gray-600",
+  future: "border-dashed border-gray-600"
+};
 
 export default function VeerendraPortfolio() {
   return (
@@ -165,134 +173,137 @@ export default function VeerendraPortfolio() {
             {/* Project Card */}
             {[
               {
-    title: "access-and-health-automation",
-    desc: "Automated User Access Auditing & Instance Health Monitoring Pipeline.",
+    title: "Access & Health Automation",
+    category: "automation",
+    impact:
+      "Reduced manual access audits and health checks by automating user access validation and EC2 health monitoring, minimizing human error in routine operations.",
     tech: ["Shell", "GitHub API", "CI"],
     link: "https://github.com/VEER0402/NodeHealth-Of-System"
   },
   {
     title: "Linux Automation Projects",
-    desc: "Utility scripts, monitoring helpers and directory automation for daily operational tasks.",
+    category: "automation",
+    impact:
+      "Automated repetitive Linux housekeeping tasks using shell scripts, reducing manual effort and improving operational consistency.",
     tech: ["Bash", "Cron", "Systemd"],
-    link: "https://github.com/VEER0402/Shell-Scripts/blob/main/shell-scripts/organize.sh"
-  },
-  {
-    title: "Ecommerce Application",
-    desc: "A structured frontend application demonstrating forms, popups and CRUD workflows.",
-    tech: ["Angular", "TypeScript", "HTML", "CSS"],
-    link: "https://github.com/VEER0402/ecommerce"
-  },
-  {
-    title: "Networking Concepts Repository",
-    desc: "A curated repository covering core networking concepts with notes, scripts and examples.",
-    tech: ["Networking", "Shell"],
-    link: "https://github.com/VEER0402/Networking"
-  },
-  {
-    title: "Certifications",
-    desc: "Repository containing my professional and technical certifications.",
-    tech: ["GenAI", "MySQL"],
-    link: "https://github.com/VEER0402/Certifications"
-  },
-  {
-    title: "Node App Deployment on AWS",
-    desc: "Deployed a Node.js application on AWS using EC2 and IAM with proper access management.",
-    tech: ["Node.js", "NPM", "AWS EC2", "IAM"],
-    link: "https://github.com/VEER0402/aws-session"
+    link: "https://github.com/VEER0402/Shell-Scripts"
   },
   {
     title: "GitHub Actions CI with Docker",
-    desc: "Production-style CI pipeline using GitHub Actions with unit testing and quality gates.",
-    tech: [
-      "Node.js",
-      "NPM",
-      "Express",
-      "Docker",
-      "Jest & Supertest",
-      "GitHub Actions (CI)"
-    ],
+    category: "ci",
+    impact:
+      "Implemented a CI pipeline with test gating and Dockerized builds that blocks faulty code early, improving build reliability before deployment.",
+    tech: ["GitHub Actions", "Docker", "Jest", "Node.js"],
     link: "https://github.com/VEER0402/github-actions-ci-docker"
   },
   {
-    title: "GitHub Actions CI Project",
-    desc: "CI pipeline comparison project explaining differences between Jenkins and GitHub Actions.",
-    tech: ["Node.js", "NPM", "EC2", "Express"],
+    title: "GitHub Actions CI Comparison",
+    category: "ci",
+    impact:
+      "Compared Jenkins and GitHub Actions pipelines to understand hosted vs self-managed CI tradeoffs, helping choose the right CI strategy per use case.",
+    tech: ["GitHub Actions", "Jenkins", "CI/CD"],
     link: "https://github.com/VEER0402/Github-Actions-Project"
   },
   {
-    title: "Jenkins CI Pipeline with Docker Agent",
-    desc: "Jenkins CI pipeline where builds run inside Docker containers for consistency and isolation.",
-    tech: ["Jenkins", "Docker", "Java", "CI/CD"],
+    title: "Jenkins CI with Docker Agent",
+    category: "ci",
+    impact:
+      "Isolated Jenkins builds using Docker agents, ensuring consistent build environments and reducing dependency conflicts on the Jenkins server.",
+    tech: ["Jenkins", "Docker", "Java"],
     link: "https://github.com/VEER0402/jenkins-ci-java-with-docker"
   },
   {
-    title: "Jenkins CI Pipeline (Without Docker)",
-    desc: `Traditional Jenkins CI pipeline for a Java application where builds are executed directly
-on the Jenkins server using Maven without containerization.`,
-    tech: [
-      "Java 17",
-      "Apache Maven",
-      "Jenkins",
-      "GitHub",
-      "Ubuntu Linux (EC2)"
-    ],
+    title: "Jenkins CI without Docker",
+    category: "ci",
+    impact:
+      "Built a traditional Jenkins CI pipeline to understand server-based build execution and its limitations compared to containerized pipelines.",
+    tech: ["Jenkins", "Maven", "Java 17"],
     link: "https://github.com/VEER0402/jenkins-ci-java-without-docker"
   },
   {
-    title: "Terraform Projects",
-    desc: "Collection of Terraform-based Infrastructure as Code projects for AWS.",
+    title: "Terraform Infrastructure Projects",
+    category: "infra",
+    impact:
+      "Converted manual AWS provisioning into Terraform-based workflows, enabling repeatable infrastructure creation and faster environment recovery.",
     tech: ["Terraform", "AWS", "IaC"],
-    link: "https://github.com/VEER0402/Jenkins-projects"
+    link: "https://github.com/VEER0402/terraform_projects"
   },
   {
-    title: "IaC Concepts",
-    desc: "Infrastructure as Code concepts, best practices and production-oriented Terraform notes.",
+    title: "IaC Concepts & Notes",
+    category: "infra",
+    impact:
+      "Documented Infrastructure-as-Code best practices to improve long-term maintainability and reduce configuration drift.",
     tech: ["Terraform", "IaC"],
     link: "https://github.com/VEER0402/IAC--Concepts"
   },
   {
-    title: "Ansible Examples",
-    desc: `Configuration management using Ansible with real AWS EC2 control and managed nodes.`,
-    tech: ["Ansible", "AWS EC2", "Configuration Management"],
+    title: "Ansible Configuration Management",
+    category: "infra",
+    impact:
+      "Automated configuration management across EC2 instances using Ansible, reducing manual setup time and ensuring consistent system state.",
+    tech: ["Ansible", "AWS EC2"],
     link: "https://github.com/VEER0402/ansible-examples"
   },
   {
+    title: "Node App Deployment on AWS",
+    category: "aws",
+    impact:
+      "Deployed a Node.js application on AWS EC2 with IAM-based access control, improving deployment security and environment isolation.",
+    tech: ["AWS EC2", "IAM", "Node.js"],
+    link: "https://github.com/VEER0402/aws-session"
+  },
+  {
+    title: "Contact Manager Backend",
+    category: "frontend",
+    impact:
+      "Built REST APIs for a contact management system, strengthening backend fundamentals and API-driven system design.",
+    tech: ["Spring Boot", "MySQL"],
+    link: "https://github.com/VEER0402/Contact-Manager-backend"
+  },
+  {
     title: "Contact Manager Frontend",
-    desc: "Angular frontend for a Contact Management System supporting full CRUD operations.",
+    category: "frontend",
+    impact:
+      "Developed an Angular-based UI consuming REST APIs, forming the foundation of my frontend-to-DevOps transition.",
     tech: ["Angular", "TypeScript"],
     link: "https://github.com/VEER0402/Contact-Manager-frontend"
   },
   {
-    title: "Contact Manager Backend",
-    desc: "Spring Boot backend for a Contact Management System with REST APIs and MySQL integration.",
-    tech: ["Java", "Spring Boot", "MySQL"],
-    link: "https://github.com/VEER0402/Contact-Manager-backend"
-  },
-  {
     title: "Future DevOps Projects",
-    desc: "Planned projects covering Kubernetes, monitoring, SRE practices and advanced CI/CD.",
-    tech: ["Coming Soon"],
+    category: "future",
+    impact:
+      "Planned work covering Kubernetes, monitoring, and SRE practices to deepen production-grade DevOps expertise.",
+    tech: ["Kubernetes", "Observability"],
     link: "#"
-  }            ].map((p) => (
-              <article key={p.title} className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl border border-gray-700 shadow-sm">
-                <div className="flex items-start justify-between">
-                  <div>
-                    <h4 className="font-semibold text-lg">{p.title}</h4>
-                    <p className="mt-2 text-gray-300">{p.desc}</p>
+  }   ].map((p) => (
+        <article
+  key={p.title}
+  className={`bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl border transition-all duration-300 ${projectStyles[p.category]}`}
+>
+  <h4 className="font-semibold text-lg">{p.title}</h4>
 
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {p.tech.map((t) => (
-                        <span key={t} className="text-xs px-2 py-1 border border-gray-700 rounded-full text-gray-300">{t}</span>
-                      ))}
-                    </div>
-                  </div>
+  <p className="mt-2 text-gray-300 text-sm">{p.impact}</p>
 
-                  <div className="flex flex-col items-end space-y-3">
-                    <a href={p.link} className="text-sm text-blue-300 underline">GitHub </a>
-                    {/* <button href={p.link} className="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500">GitHub</button> */}
-                  </div>
-                </div>
-              </article>
+  <div className="mt-3 flex flex-wrap gap-2">
+    {p.tech.map((t) => (
+      <span
+        key={t}
+        className="text-xs px-2 py-1 rounded-full border border-gray-700 text-gray-300"
+      >
+        {t}
+      </span>
+    ))}
+  </div>
+
+  <a
+    href={p.link}
+    target="_blank"
+    className="inline-block mt-4 text-sm text-blue-300 underline"
+  >
+    GitHub →
+  </a>
+</article>
+
             ))}
           </div>
         </div>
