@@ -201,6 +201,62 @@ export default function VeerendraPortfolio() {
                 tech: ["Node","NPM","EC2"],
                 link: "https://github.com/VEER0402/aws-session"
               },
+		 {
+                title: "Github-actions-ci-docker",
+                desc: " Demonstrates a production-style Continuous Integration (CI) pipeline implemented using GitHub Actions. The pipeline enforces quality gates using unit tests and ensures that only verified code progresses through the workflow.",
+                tech: ["Node.js","NPM","EC2","Express",""Jest & Supertest (unit testing),"GitHub Actions (CI)"],
+                link: "https://github.com/VEER0402/github-actions-ci-docker"
+              },
+		 {
+                title: "Github-Actions-Project",
+                desc: "Jenkins is self-hosted, meaning it requires its own server to run, while GitHub Actions is hosted by GitHub and runs directly in your GitHub repository.",
+                tech: ["Node","NPM","EC2","Express"],
+                link: "https://github.com/VEER0402/Github-Actions-Project"
+              },
+		 {
+                title: "Jenkins CI Pipeline with Docker-based Build Agent",
+                desc: "This project demonstrates a Jenkins CI pipeline where application builds are executed inside Docker containers. The pipeline is designed to keep the Jenkins server lightweight while ensuring consistent and reproducible build environments.",
+                tech: ["Node","NPM","Dicker","Jenkinsx"],
+                link: "https://github.com/VEER0402/jenkins-ci-java-with-docker"
+              },
+		 {
+                title: "Jenkins CI Pipeline for Java Application (Without Containerization)",
+                desc: "This project demonstrates a traditional Jenkins Continuous Integration (CI) pipeline for a Java application.
+Jenkins pulls source code from GitHub and performs a Maven build directly on the Jenkins server without using containerization.",
+                tech: ["NPM","EC2","GitHub","Java17","Apache Maven","Ubuntu Linux (EC2)"],
+                link: "https://github.com/VEER0402/jenkins-ci-java-without-docker"
+              },
+		 {
+                title: "Terraform_projects",
+                desc: "In this repo there will be multiple terraform projects.",
+                tech: ["Terraform","NPM","EC2"],
+                link: "https://github.com/VEER0402/Jenkins-projects"
+              },
+		 {
+                title: "IAC--Concepts",
+                desc: "Infrastructure as Code (IaC) using Terraform — concepts, best practices, and production-oriented DevOps notes.",
+                tech: [],
+                link: "https://github.com/VEER0402/IAC--Concepts"
+              },
+		 {
+                title: "Ansible-examples",
+                desc: "This repository contains Ansible configuration management.
+All playbooks here are written and tested on real AWS EC2 instances using a proper control node → managed nodes architecture.",
+                tech: ["Cloud Provider: AWS EC2","Ansible Control Node: Dedicated EC2 instance","Git + GitHub (SSH-based access)"],
+                link: "https://github.com/VEER0402/ansible-examples"
+              },
+		 {
+                title: "Contact-Manager-frontend",
+                desc: "About This is the java+MySQL+Angular based Project for Contact management , Like Add Contact, Modify Contact , Delete Contact Etc.",
+                tech: ["Java (JDK)","Spring Boot ","MySQL","Angular"],
+                link: "https://github.com/VEER0402/Contact-Manager-frontend"
+              },
+		 {
+                title: "Contact-Manager-backend",
+                desc: "A complete Contact Management System built from scratch using Spring Boot (Backend) and Angular (Frontend). This project was developed to deeply understand real-world application architecture, backend–frontend integration, and CRUD workflows used in enterprise projects.",
+                tech: ["Java (JDK)","Spring Boot ","MySQL","Angular"],
+                link: "https://github.com/VEER0402/Contact-Manager-backend"
+              },
 		       {
                 title: "Future DevOps Projects",
                 desc: "Placeholders for upcoming work: infra-as-code examples, advanced CI patterns, SRE experiments.",
