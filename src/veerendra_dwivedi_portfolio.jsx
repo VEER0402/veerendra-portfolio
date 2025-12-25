@@ -165,105 +165,115 @@ export default function VeerendraPortfolio() {
             {/* Project Card */}
             {[
               {
-                title: "access-and-health-automation",
-                desc: "Automated User Access Auditing & Instance Health Monitoring Pipeline.",
-                tech: ["Shell", "GitHub API", "CI"],
-                link: "https://github.com/VEER0402/NodeHealth-Of-System"
-              },
-              
-              {
-                title: "Linux Automation Projects",
-                desc: "Utility scripts (organize.sh), monitoring helpers and directory automation for daily tasks.",
-                tech: ["Bash", "Cron", "Systemd"],
-                link: "https://github.com/VEER0402/Shell-Scripts/blob/main/shell-scripts/organize.sh"
-              },
-              {
-                title: "Ecommerce",
-                desc: "A polished UI project from my early career demonstrating structured forms, popups and CRUD flows.",
-                tech: ["Angular", "TypeScript", "HTML/CSS"],
-                link: "https://github.com/VEER0402/ecommerce"
-              },
-              {
-                title: "Networking Concepts Repository",
-                desc: "A curated set of notes, scripts and examples explaining key networking concepts for engineers.",
-                tech: ["Docs", "Shell"],
-                link: "https://github.com/VEER0402/Networking"
-              },
-       {
-                title: "CertiFications",
-                desc: "My Certifications.",
-                tech: ["GenAI", "MySQL"],
-                link: "https://github.com/VEER0402/Certifications"
-              },
-              {
-                title: "Node App AWS Deployment",
-                desc: "Created IAM role , EC2 Instances and deployed it on AWS.",
-                tech: ["Node","NPM","EC2"],
-                link: "https://github.com/VEER0402/aws-session"
-              },
-		 {
-                title: "Github-actions-ci-docker",
-                desc: " Demonstrates a production-style Continuous Integration (CI) pipeline implemented using GitHub Actions. The pipeline enforces quality gates using unit tests and ensures that only verified code progresses through the workflow.",
-                tech: ["Node.js","NPM","EC2","Express",""Jest & Supertest (unit testing),"GitHub Actions (CI)"],
-                link: "https://github.com/VEER0402/github-actions-ci-docker"
-              },
-		 {
-                title: "Github-Actions-Project",
-                desc: "Jenkins is self-hosted, meaning it requires its own server to run, while GitHub Actions is hosted by GitHub and runs directly in your GitHub repository.",
-                tech: ["Node","NPM","EC2","Express"],
-                link: "https://github.com/VEER0402/Github-Actions-Project"
-              },
-		 {
-                title: "Jenkins CI Pipeline with Docker-based Build Agent",
-                desc: "This project demonstrates a Jenkins CI pipeline where application builds are executed inside Docker containers. The pipeline is designed to keep the Jenkins server lightweight while ensuring consistent and reproducible build environments.",
-                tech: ["Node","NPM","Dicker","Jenkinsx"],
-                link: "https://github.com/VEER0402/jenkins-ci-java-with-docker"
-              },
-		 {
-                title: "Jenkins CI Pipeline for Java Application (Without Containerization)",
-                desc: "This project demonstrates a traditional Jenkins Continuous Integration (CI) pipeline for a Java application.
-Jenkins pulls source code from GitHub and performs a Maven build directly on the Jenkins server without using containerization.",
-                tech: ["NPM","EC2","GitHub","Java17","Apache Maven","Ubuntu Linux (EC2)"],
-                link: "https://github.com/VEER0402/jenkins-ci-java-without-docker"
-              },
-		 {
-                title: "Terraform_projects",
-                desc: "In this repo there will be multiple terraform projects.",
-                tech: ["Terraform","NPM","EC2"],
-                link: "https://github.com/VEER0402/Jenkins-projects"
-              },
-		 {
-                title: "IAC--Concepts",
-                desc: "Infrastructure as Code (IaC) using Terraform — concepts, best practices, and production-oriented DevOps notes.",
-                tech: [],
-                link: "https://github.com/VEER0402/IAC--Concepts"
-              },
-		 {
-                title: "Ansible-examples",
-                desc: "This repository contains Ansible configuration management.
-All playbooks here are written and tested on real AWS EC2 instances using a proper control node → managed nodes architecture.",
-                tech: ["Cloud Provider: AWS EC2","Ansible Control Node: Dedicated EC2 instance","Git + GitHub (SSH-based access)"],
-                link: "https://github.com/VEER0402/ansible-examples"
-              },
-		 {
-                title: "Contact-Manager-frontend",
-                desc: "About This is the java+MySQL+Angular based Project for Contact management , Like Add Contact, Modify Contact , Delete Contact Etc.",
-                tech: ["Java (JDK)","Spring Boot ","MySQL","Angular"],
-                link: "https://github.com/VEER0402/Contact-Manager-frontend"
-              },
-		 {
-                title: "Contact-Manager-backend",
-                desc: "A complete Contact Management System built from scratch using Spring Boot (Backend) and Angular (Frontend). This project was developed to deeply understand real-world application architecture, backend–frontend integration, and CRUD workflows used in enterprise projects.",
-                tech: ["Java (JDK)","Spring Boot ","MySQL","Angular"],
-                link: "https://github.com/VEER0402/Contact-Manager-backend"
-              },
-		       {
-                title: "Future DevOps Projects",
-                desc: "Placeholders for upcoming work: infra-as-code examples, advanced CI patterns, SRE experiments.",
-                tech: ["TBD"],
-                link: "#"
-              }
-            ].map((p) => (
+    title: "access-and-health-automation",
+    desc: "Automated User Access Auditing & Instance Health Monitoring Pipeline.",
+    tech: ["Shell", "GitHub API", "CI"],
+    link: "https://github.com/VEER0402/NodeHealth-Of-System"
+  },
+  {
+    title: "Linux Automation Projects",
+    desc: "Utility scripts, monitoring helpers and directory automation for daily operational tasks.",
+    tech: ["Bash", "Cron", "Systemd"],
+    link: "https://github.com/VEER0402/Shell-Scripts/blob/main/shell-scripts/organize.sh"
+  },
+  {
+    title: "Ecommerce Application",
+    desc: "A structured frontend application demonstrating forms, popups and CRUD workflows.",
+    tech: ["Angular", "TypeScript", "HTML", "CSS"],
+    link: "https://github.com/VEER0402/ecommerce"
+  },
+  {
+    title: "Networking Concepts Repository",
+    desc: "A curated repository covering core networking concepts with notes, scripts and examples.",
+    tech: ["Networking", "Shell"],
+    link: "https://github.com/VEER0402/Networking"
+  },
+  {
+    title: "Certifications",
+    desc: "Repository containing my professional and technical certifications.",
+    tech: ["GenAI", "MySQL"],
+    link: "https://github.com/VEER0402/Certifications"
+  },
+  {
+    title: "Node App Deployment on AWS",
+    desc: "Deployed a Node.js application on AWS using EC2 and IAM with proper access management.",
+    tech: ["Node.js", "NPM", "AWS EC2", "IAM"],
+    link: "https://github.com/VEER0402/aws-session"
+  },
+  {
+    title: "GitHub Actions CI with Docker",
+    desc: "Production-style CI pipeline using GitHub Actions with unit testing and quality gates.",
+    tech: [
+      "Node.js",
+      "NPM",
+      "Express",
+      "Docker",
+      "Jest & Supertest",
+      "GitHub Actions (CI)"
+    ],
+    link: "https://github.com/VEER0402/github-actions-ci-docker"
+  },
+  {
+    title: "GitHub Actions CI Project",
+    desc: "CI pipeline comparison project explaining differences between Jenkins and GitHub Actions.",
+    tech: ["Node.js", "NPM", "EC2", "Express"],
+    link: "https://github.com/VEER0402/Github-Actions-Project"
+  },
+  {
+    title: "Jenkins CI Pipeline with Docker Agent",
+    desc: "Jenkins CI pipeline where builds run inside Docker containers for consistency and isolation.",
+    tech: ["Jenkins", "Docker", "Java", "CI/CD"],
+    link: "https://github.com/VEER0402/jenkins-ci-java-with-docker"
+  },
+  {
+    title: "Jenkins CI Pipeline (Without Docker)",
+    desc: `Traditional Jenkins CI pipeline for a Java application where builds are executed directly
+on the Jenkins server using Maven without containerization.`,
+    tech: [
+      "Java 17",
+      "Apache Maven",
+      "Jenkins",
+      "GitHub",
+      "Ubuntu Linux (EC2)"
+    ],
+    link: "https://github.com/VEER0402/jenkins-ci-java-without-docker"
+  },
+  {
+    title: "Terraform Projects",
+    desc: "Collection of Terraform-based Infrastructure as Code projects for AWS.",
+    tech: ["Terraform", "AWS", "IaC"],
+    link: "https://github.com/VEER0402/Jenkins-projects"
+  },
+  {
+    title: "IaC Concepts",
+    desc: "Infrastructure as Code concepts, best practices and production-oriented Terraform notes.",
+    tech: ["Terraform", "IaC"],
+    link: "https://github.com/VEER0402/IAC--Concepts"
+  },
+  {
+    title: "Ansible Examples",
+    desc: `Configuration management using Ansible with real AWS EC2 control and managed nodes.`,
+    tech: ["Ansible", "AWS EC2", "Configuration Management"],
+    link: "https://github.com/VEER0402/ansible-examples"
+  },
+  {
+    title: "Contact Manager Frontend",
+    desc: "Angular frontend for a Contact Management System supporting full CRUD operations.",
+    tech: ["Angular", "TypeScript"],
+    link: "https://github.com/VEER0402/Contact-Manager-frontend"
+  },
+  {
+    title: "Contact Manager Backend",
+    desc: "Spring Boot backend for a Contact Management System with REST APIs and MySQL integration.",
+    tech: ["Java", "Spring Boot", "MySQL"],
+    link: "https://github.com/VEER0402/Contact-Manager-backend"
+  },
+  {
+    title: "Future DevOps Projects",
+    desc: "Planned projects covering Kubernetes, monitoring, SRE practices and advanced CI/CD.",
+    tech: ["Coming Soon"],
+    link: "#"
+  }            ].map((p) => (
               <article key={p.title} className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl border border-gray-700 shadow-sm">
                 <div className="flex items-start justify-between">
                   <div>
