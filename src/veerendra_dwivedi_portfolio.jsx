@@ -264,7 +264,7 @@ export default function VeerendraPortfolio() {
     title: "Contact Manager Frontend",
     category: "frontend",
     impact:
-      "Developed an Angular-based UI consuming REST APIs, forming the foundation of my frontend-to-DevOps transition.",
+      "Developed an Angular-based UI consuming REST APIs.",
     tech: ["Angular", "TypeScript"],
     link: "https://github.com/VEER0402/Contact-Manager-frontend"
   },
