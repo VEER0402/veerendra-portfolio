@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 const projectStyles = {
   ci: "border-blue-500/40 hover:border-green-400",
   infra: "border-purple-500/40 hover:border-purple-400",
@@ -31,44 +33,65 @@ export default function VeerendraPortfolio() {
       </header>
 
       {/* Hero */}
-      <section className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <div>
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">Veerendra Dwivedi</h2>
-          <p className="mt-2 text-blue-300 font-medium">DevOps Engineer</p>
-          <p className="mt-6 text-lg text-gray-300">I build resilient infrastructure and automation with disciplined execution — consistent, dependable, and engineered for scale.</p>
+{/* Hero */}
+<section className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+  >
+    <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
+      Hi, I’m <span className="text-blue-400">Veerendra</span>
+    </h2>
 
-          <div className="mt-6 flex items-center space-x-4">
-            <a href="#contact" className="inline-flex items-center px-5 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 font-medium">Hire / Contact</a>
-            <a
-  href="https://drive.google.com/uc?export=download&id=1xd2PCUQ8uHHLpkkdUqd7RIOIIoh8-vYN"
-  className="inline-flex items-center px-5 py-3 rounded-lg border border-gray-700 text-gray-200 hover:border-blue-500"
->
-  Download Resume
-</a>
-          </div>
+    <p className="mt-3 text-xl text-blue-300 font-medium">
+      DevOps Engineer
+    </p>
 
-          <div className="mt-8 text-sm text-gray-400 space-y-2">
-            <p><strong>Location:</strong>Noida</p>
-            <p><strong>Current Role:</strong> DevOps Engineer</p>
-            
-          </div>
-        </div>
+    <p className="mt-6 text-lg text-gray-300 max-w-xl">
+      I build reliable cloud infrastructure, CI/CD pipelines, and automation
+      systems with discipline, ownership, and production-first thinking.
+    </p>
 
-        <div className="order-first md:order-last flex items-center justify-center">
-          <div className="w-full max-w-sm rounded-2xl p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-800 shadow-lg">
+    <div className="mt-8 flex items-center space-x-4">
+      <a
+        href="#projects"
+        className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 font-medium transition"
+      >
+        View Projects
+      </a>
 
-            {/* Added image - place a file named /veerendra.jpg in your public folder */}
-            <div className="w-64 h-64 mx-auto rounded-lg bg-gray-700 flex items-center justify-center overflow-hidden">
-              <img src="/veerendra.jpg" alt="Veerendra Dwivedi" className="w-full h-full object-cover" />
-            </div>
+      <a
+        href="https://drive.google.com/uc?export=download&id=1xd2PCUQ8uHHLpkkdUqd7RIOIIoh8-vYN"
+        className="inline-flex items-center px-6 py-3 rounded-lg border border-gray-700 hover:border-blue-500 transition"
+      >
+        Resume
+      </a>
+    </div>
+  </motion.div>
 
-            <div className="mt-6 text-gray-300">
-              <h3 className="font-semibold">Tagline</h3>
-              <p className="mt-2">Disciplined. Consistent. Masterful — engineering reliable systems with calm precision.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <motion.div
+    initial={{ opacity: 0, scale: 0.95 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.6, delay: 0.2 }}
+    className="order-first md:order-last flex justify-center"
+  >
+    <div className="w-full max-w-sm rounded-2xl p-6 bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-800 shadow-lg">
+      <div className="w-64 h-64 mx-auto rounded-lg overflow-hidden">
+        <img
+          src="/veerendra.jpg"
+          alt="Veerendra Dwivedi"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      <p className="mt-6 text-gray-300 text-center">
+        Disciplined. Calm. Reliable.
+      </p>
+    </div>
+  </motion.div>
+</section>
+
 
       {/* About */}
       <section id="about" className="border-t border-gray-800">
@@ -276,10 +299,13 @@ export default function VeerendraPortfolio() {
     tech: ["Kubernetes", "Observability"],
     link: "#"
   }   ].map((p) => (
-        <article
+        <motion.article
   key={p.title}
-  className={`bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl border transition-all duration-300 ${projectStyles[p.category]}`}
+  whileHover={{ y: -6 }}
+  transition={{ type: "spring", stiffness: 300 }}
+  className={`bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl border ${projectStyles[p.category]} shadow-lg`}
 >
+
   <h4 className="font-semibold text-lg">{p.title}</h4>
 
   <p className="mt-2 text-gray-300 text-sm">{p.impact}</p>
@@ -302,7 +328,7 @@ export default function VeerendraPortfolio() {
   >
     GitHub →
   </a>
-</article>
+</motion.article>
 
             ))}
           </div>
