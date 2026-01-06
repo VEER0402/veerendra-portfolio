@@ -291,6 +291,14 @@ export default function VeerendraPortfolio() {
     tech: ["Angular", "TypeScript"],
     link: "https://github.com/VEER0402/Contact-Manager-frontend"
   },
+ {
+    title: "githubactions_selfhosted_runner",
+    category: "CI",
+    impact:
+      "Developed an Angular-based UI consuming REST APIs.",
+    tech: ["GitHub Actions", "selfhosted_runner"],
+    link: "https://github.com/VEER0402/githubactions_selfhosted_runner"
+  },
   {
     title: "Future DevOps Projects",
     category: "future",
