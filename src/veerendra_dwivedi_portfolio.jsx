@@ -307,6 +307,22 @@ export default function VeerendraPortfolio() {
     tech: ["Docker"],
     link: "https://github.com/VEER0402/Docker"
   },
+ {
+    title: "Docker Compose",
+    category: "CD",
+    impact:
+      "Compose unifies your multi-container app into one config that boots everything together.",
+    tech: ["Docker"],
+    link: "https://github.com/VEER0402/Docker-compose"
+  },
+ {
+    title: "MERN-Docker-compose",
+    category: "CD",
+    impact:
+      "Prepares the project for production-like setups (CI/CD, scaling, volume persistence, etc.)",
+    tech: ["Docker"],
+    link: "https://github.com/VEER0402/mern-docker-compose"
+  },
   {
     title: "Future DevOps Projects",
     category: "future",
