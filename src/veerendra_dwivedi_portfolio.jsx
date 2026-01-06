@@ -62,7 +62,7 @@ export default function VeerendraPortfolio() {
       </a>
 
       <a
-        href="https://drive.google.com/uc?export=download&id=1xd2PCUQ8uHHLpkkdUqd7RIOIIoh8-vYN"
+        href="https://drive.google.com/uc?export=download&id=18hBqYPSemf1fbHolM_Yhchw72o46NV2r"
         className="inline-flex items-center px-6 py-3 rounded-lg border border-gray-700 hover:border-blue-500 transition"
       >
         Resume
