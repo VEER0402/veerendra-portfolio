@@ -295,9 +295,17 @@ export default function VeerendraPortfolio() {
     title: "githubactions_selfhosted_runner",
     category: "CI",
     impact:
-      "Developed an Angular-based UI consuming REST APIs.",
+      "Deployed app using selfhosted_runner.",
     tech: ["GitHub Actions", "selfhosted_runner"],
     link: "https://github.com/VEER0402/githubactions_selfhosted_runner"
+  },
+ {
+    title: "Docker",
+    category: "CD",
+    impact:
+      "reduces image layers (potentially smaller/faster builds.",
+    tech: ["Docker"],
+    link: "https://github.com/VEER0402/Docker"
   },
   {
     title: "Future DevOps Projects",
