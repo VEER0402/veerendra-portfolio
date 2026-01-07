@@ -414,9 +414,18 @@ export default function VeerendraPortfolio() {
               </div>
 
               <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
-                <li>Delivered production UI components and integrated with backend services</li>
-                <li>Learned code structure, clean engineering and disciplined delivery</li>
-                <li>Gained strong fundamentals that later fed into DevOps practice</li>
+                <li>Worked as a full-time SDE Trainee, contributing to UI and application development.</li>
+
+<li>Built and enhanced UI components using Angular, HTML, CSS, TypeScript, and Bootstrap.</li>
+
+<li>Gained hands-on exposure to Java-based applications, Apache Tomcat, and enterprise development workflows.</li>
+
+<li>Integrated frontend modules with backend services and performed API testing and validation.</li>
+
+<li>Conducted unit testing and optimized frontend performance.</li>
+
+<li>Collaborated with QA teams to reproduce issues and validate bug fixes.</li>
+
               </ul>
             </div>
           </div>
