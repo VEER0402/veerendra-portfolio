@@ -383,13 +383,24 @@ export default function VeerendraPortfolio() {
               </div>
 
               <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
-                <li>Infrastructure automation and Terraform-powered IaC for AWS (EKS, VPCs, IAM)</li>
-                <li>Design and maintain Kubernetes clusters, Helm charts and deployment strategies</li>
-                <li>CI/CD pipelines with GitHub Actions and Jenkins for automated delivery</li>
-                <li>Container lifecycle management, image scanning and registries</li>
-                <li>Observability and monitoring with Prometheus, Grafana and ELK/EFK stacks</li>
-                <li>Secrets management and secure deployment practices (Vault, SOPS)</li>
-                <li>Shell scripting and GitHub API integrations to automate developer workflows</li>
+        <li>End-to-end CI/CD delivery using GitHub Actions, Jenkins (Groovy), and automated pipelines for build, test, containerization, and deployment across multiple environments.</li>
+
+<li>Manage Terraform-based IaC for AWS (VPC, IAM, EKS) and automate configuration tasks using tools like Ansible where required.</li>
+
+<li>Build, maintain, and optimize Kubernetes workloads (Deployments, Services, ConfigMaps, Ingress) ensuring consistent and repeatable releases.</li>
+
+<li>Operate and maintain self-hosted GitHub Actions runners for enterprise-grade automation and performance.</li>
+
+<li>Implement observability using Prometheus, Grafana, and ELK/EFK, creating dashboards and alerting for system and application metrics.</li>
+
+<li>Perform incident investigation using logs, debugging bottlenecks, and restoring services during high-traffic or production-impacting events.</li>
+
+<li>Own container lifecycle management — building images, enforcing scanning, managing registries, and improving deployment workflows.</li>
+
+<li>Automate repetitive operational tasks using shell scripting, GitHub APIs, and workflow automation to improve developer velocity.</li>
+
+<li>Collaborate with client teams, translating business workflows into stable technical solutions across web/mobile ecosystems.</li>
+
               </ul>
             </div>
 
