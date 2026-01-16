@@ -498,7 +498,24 @@ export default function VeerendraPortfolio() {
     </a>
   </li>
 
-  
+  <li>
+    <strong>X:</strong>
+    <a
+      href="https://x.com/veerdwivedi0402"
+      className="text-blue-300 ml-1"
+    >
+      x.com/veerdwivedi0402
+    </a>
+  </li>
+ <li>
+    <strong>Instagram:</strong>
+    <a
+      href="https://www.instagram.com/gymgineer_veer/"
+      className="text-blue-300 ml-1"
+    >
+      instagram.com/gymgineer_veer
+    </a>
+  </li>
 </ul>
 
 
