@@ -465,7 +465,7 @@ export default function VeerendraPortfolio() {
   <li>
     <strong>Email:</strong>
     <a
-      href="mailto:veerendrad1999@gmail.com"
+      href="mailto:veerendra1999@gmail.com"
       className="text-blue-300 ml-1"
       target="_blank"
       rel="noopener noreferrer"
