@@ -62,7 +62,7 @@ export default function VeerendraPortfolio() {
       </a>
 
       <a
-        href="https://drive.google.com/uc?export=download&id=18hBqYPSemf1fbHolM_Yhchw72o46NV2r"
+        href=""
         className="inline-flex items-center px-6 py-3 rounded-lg border border-gray-700 hover:border-blue-500 transition"
       >
         Resume
@@ -470,7 +470,7 @@ export default function VeerendraPortfolio() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      veerendrad1999@gmail.com
+      work.veerendra1999@gmail.com
     </a>
   </li>
 
@@ -498,15 +498,7 @@ export default function VeerendraPortfolio() {
     </a>
   </li>
 
-  <li>
-    <strong>Phone:</strong>
-    <a
-      href="tel:+919140136718"
-      className="text-blue-300 ml-1"
-    >
-      +91 9140136718
-    </a>
-  </li>
+  
 </ul>
 
 
