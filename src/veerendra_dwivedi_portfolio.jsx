@@ -433,7 +433,7 @@ export default function VeerendraPortfolio() {
       </section>
 
       {/* Resume */}
-      <section id="resume" className="border-t border-gray-800">
+      {/* <section id="resume" className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
             <h3 className="text-2xl font-bold">Resume</h3>
@@ -452,7 +452,7 @@ export default function VeerendraPortfolio() {
             <a href="#contact" className="px-5 py-3 rounded-lg border border-gray-700">Contact</a>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact */}
       <section id="contact" className="border-t border-gray-800">
