@@ -3,7 +3,7 @@
 This is my personal portfolio website where I showcase my skills, projects, and learning journey as a UI Developer transitioning towards DevOps and Cloud technologies.
 
 🔗 **Live :**  
-https://veerendra-portfolio-seven.vercel.app/
+
 
 ---
 
