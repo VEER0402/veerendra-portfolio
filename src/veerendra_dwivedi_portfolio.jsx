@@ -142,14 +142,15 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">DevOps & Cloud</h4>
               <ul className="mt-3 text-gray-300 space-y-1">
-                <li>AWS — EC2, S3, IAM, VPC, EKS</li>
-                <li>Infrastructure as Code — Terraform, CloudFormation</li>
-                <li>Kubernetes — cluster ops, Helm, service mesh basics</li>
-                <li>CI/CD — GitHub Actions, Jenkins, GitLab CI</li>
-                <li>Container tooling — Docker, container registries, image scanning</li>
-                <li>Configuration & Secrets — Ansible, Vault, SOPS</li>
-                <li>Observability — Prometheus, Grafana, ELK/EFK, tracing</li>
-                <li>AWS CLI & automation tooling</li>
+                <li>Cloud: AWS (EC2, IAM, S3, RDS, EKS, CloudWatch)</li>
+                <li>CI/CD: Jenkins (Groovy Pipelines), GitHub Actions</li>
+                <li>Containers: Docker (Multi-stage builds, Image optimization)</li>
+                <li>Orchestration: Kubernetes (Deployments, Services, Ingress, ConfigMaps, Secrets)</li>
+                <li>IaC: Terraform</li>
+                <li>Configuration & Secrets — Ansible</li>
+                <li>Scripting: Bash, Shell</li>
+                <li>Version Control: Git, GitHub, SVN</li>
+                <li>Monitoring: Prometheus, Grafana, CloudWatch</li>
               </ul>
             </div>
 
@@ -380,7 +381,7 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-semibold">DevOps Engineer — 2023–Present</h4>
+                  <h4 className="font-semibold">DevOps Engineer — 2022–Present</h4>
                   <p className="text-sm text-gray-400 mt-1">Infrastructure automation, CI/CD, shell scripting, GitHub integrations, Kubernetes & observability.</p>
                 </div>
                 <div className="text-sm text-gray-400">Present</div>
