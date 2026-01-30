@@ -107,14 +107,14 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">What I do</h4>
               <ul className="mt-3 text-gray-300 space-y-2 list-disc list-inside">
-                <li>Design and implement infrastructure-as-code (Terraform, CloudFormation) for repeatable environments</li>
-                <li>Build and maintain Kubernetes clusters (EKS/GKE/AKS), including Helm charts and operator workflows</li>
-                <li>Design CI/CD pipelines (GitHub Actions, Jenkins, GitLab CI) for reliable, fast deployments</li>
-                <li>Container orchestration and image lifecycle management (Docker, registries, image scanning)</li>
-                <li>Observability & monitoring — Prometheus, Grafana and alerting</li>
-                <li>Secrets & configuration management (Vault, SOPS) and secure deployment practices</li>
-                <li>Automation with Ansible, shell scripting and GitHub API integrations for developer productivity</li>
-                <li>Incident response, runbooks and reliability improvements (SRE practices)</li>
+                <li>Design and manage AWS cloud infrastructure using Terraform (EC2, IAM, RDS, EKS, S3).</li>
+                <li>Build and maintain CI/CD pipelines using Jenkins (Groovy) and GitHub Actions.</li>
+                <li>Containerize applications using Docker multi-stage builds and manage image lifecycle.</li>
+                <li>Deploy and manage applications on Kubernetes (EKS) using Deployments, Services, ConfigMaps, and Ingress.</li>
+                <li>Implement Infrastructure as Code and automate provisioning for repeatable environments.</li>
+                <li>Monitor applications and infrastructure using CloudWatch, Prometheus & Grafana.</li>
+                <li>Manage secrets and configuration securely using Kubernetes Secrets and environment-based configs.</li>
+                <li>Support production systems, troubleshoot incidents, and improve system reliability.</li>
               </ul>
             </div>
 
