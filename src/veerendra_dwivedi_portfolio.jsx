@@ -534,7 +534,7 @@ understanding application deployment and runtime behavior.</li>
 
 
               <div className="mt-6">
-                <a href="https://github.com/VEER0402" className="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500">Open GitHub</a>
+                <a href="https://github.com/" className="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500">Open GitHub</a>
               </div>
             </div>
 
