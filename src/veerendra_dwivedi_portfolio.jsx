@@ -97,7 +97,11 @@ export default function VeerendraPortfolio() {
       <section id="about" className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-12">
           <h3 className="text-2xl font-bold">About Me</h3>
-          <p className="mt-4 text-gray-300 leading-relaxed">I am a DevOps Engineer with a solid foundation in cloud, automation, Linux systems, CI/CD, scripting, and modern infrastructure practices. I started my career in 2021 as a UI Developer (TypeScript, HTML, CSS), which gave me strong fundamentals in system thinking, clean engineering and production-quality delivery. I transitioned into DevOps to drive end-to-end automation, infrastructure reliability and seamless developer workflows. My day-to-day work centers on building robust automation, managing cloud infrastructure, integrating Git workflows, and improving deployment and monitoring systems.</p>
+          <p className="mt-4 text-gray-300 leading-relaxed">I am a DevOps Engineer with hands-on experience in AWS cloud infrastructure, CI/CD automation, containerized deployments, and Kubernetes-based application delivery.
+
+I started my career in frontend engineering, which helped me understand application architecture deeply. I later transitioned into DevOps, where I now focus on building reliable deployment pipelines, managing cloud resources, and improving system stability through automation and observability.
+
+My work revolves around infrastructure as code, Docker & Kubernetes workloads, Git-based workflows, and production support, with a strong focus on ownership and continuous improvement.</p>
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-gray-800 p-5 rounded-lg">
