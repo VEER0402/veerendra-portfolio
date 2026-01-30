@@ -121,12 +121,12 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">Who I am</h4>
               <ul className="mt-3 text-gray-300 space-y-2 list-disc list-inside">
-                <li>Disciplined and consistent — my 6-day fitness routine builds the same focus and reliability I bring to engineering.</li>
-                <li>Calm under pressure — I stay composed in production incidents, prioritize clearly, and execute without panic.</li>
-                <li>Driven by mastery and long-term growth — I prefer depth, fundamentals, and scalable solutions over shortcuts.</li>
-		<li>High ownership mindset — I take responsibility end-to-end, from debugging to deployment to documentation.</li>
-		<li>Structured thinker — I break complex problems into clean, predictable workflows and automate them.</li>
-		<li>Resilient and dependable — setbacks don’t stop me; I rebuild, improve, and come back stronger every time.</li>
+                <li>DHighly disciplined and consistent — I apply the same focus from my fitness routine to engineering reliability.</li>
+                <li>Calm under pressure — experienced in handling production issues and debugging live systems.</li>
+                <li>Ownership mindset — I take responsibility from deployment to troubleshooting.</li>
+		            <li>Continuous learner — always improving DevOps practices, automation, and cloud skills.</li>
+		            <li>Structured thinker — I break complex problems into clean, predictable workflows and automate them.</li>
+		            <li>Strong team collaborator — work closely with developers to streamline delivery workflows.</li>
 
               </ul>
             </div>
