@@ -387,23 +387,32 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
               </div>
 
               <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
-        <li>End-to-end CI/CD delivery using GitHub Actions, Jenkins (Groovy), and automated pipelines for build, test, containerization, and deployment across multiple environments.</li>
+        <li>Designed and maintained end-to-end CI/CD pipelines using Jenkins and GitHub Actions, automating code checkout,
+build, Docker image creation, security scanning, pushing images to ECR, and environment-based Kubernetes deployments.</li>
 
-<li>Manage Terraform-based IaC for AWS (VPC, IAM, EKS) and automate configuration tasks using tools like Ansible where required.</li>
+<li> Optimized containerization using multi-stage Docker builds and distroless base images, reducing Docker image size
+by ~70% and improving security and deployment speed.</li>
 
-<li>Build, maintain, and optimize Kubernetes workloads (Deployments, Services, ConfigMaps, Ingress) ensuring consistent and repeatable releases.</li>
+<li>Implemented and maintained self-hosted GitHub Actions and standardized Docker-based build workflows, enabling
+consistent CI/CD execution across development, testing, and production environments.</li>
 
-<li>Operate and maintain self-hosted GitHub Actions runners for enterprise-grade automation and performance.</li>
+<li>Improved stability and reliability of deployment pipelines by enforcing environment consistency, automated
+validations, and controlled release strategies.</li>
 
-<li>Implement observability using Prometheus, Grafana, and ELK/EFK, creating dashboards and alerting for system and application metrics.</li>
+<li>Provisioned and managed infrastructure using Terraform and automated configuration tasks using Ansible,
+supporting environment-specific infrastructure setups.</li>
 
-<li>Perform incident investigation using logs, debugging bottlenecks, and restoring services during high-traffic or production-impacting events.</li>
+<li>Deployed and managed containerized applications on Kubernetes using Deployments, Services, ConfigMaps, and
+Ingress, implementing environment-based configurations and rolling updates for seamless releases.</li>
 
-<li>Own container lifecycle management — building images, enforcing scanning, managing registries, and improving deployment workflows.</li>
+<li>Collaborated with client and cross-functional teams to translate business requirements into automated, stable
+deployment and infrastructure solutions.</li>
 
-<li>Automate repetitive operational tasks using shell scripting, GitHub APIs, and workflow automation to improve developer velocity.</li>
+<li> Actively supported production systems, troubleshooting application and infrastructure issues using logs, monitoring
+dashboards, and system metrics to restore services within SLA timelines.</li>
 
-<li>Collaborate with client teams, translating business workflows into stable technical solutions across web/mobile ecosystems.</li>
+<li>Earlier contributed to frontend application development using Angular and TypeScript, which helped in
+understanding application deployment and runtime behavior.</li>
 
               </ul>
             </div>
