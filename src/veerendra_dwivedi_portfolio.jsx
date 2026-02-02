@@ -168,10 +168,10 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">Programming & Tools</h4>
               <ul className="mt-3 text-gray-300 space-y-1">
-                <li>Git & GitHub — workflows, actions, API integrations</li>
-                <li>TypeScript (foundational) and Node basics</li>
-                <li>REST APIs, JSON & YAML for infra configs</li>
-                <li>Foundational UI — HTML, CSS, responsive UI (career start)</li>
+                <li>Git & GitHub for version control, branching strategies, and CI/CD workflow integration.</li>
+                <li>YAML & JSON configuration for Kubernetes, Terraform, and pipeline definitions.</li>
+                <li>REST API usage for automation and system integrations.</li>
+                <li>Basic scripting logic understanding for debugging pipelines and automation scripts.</li>
               </ul>
             </div>
           </div>
