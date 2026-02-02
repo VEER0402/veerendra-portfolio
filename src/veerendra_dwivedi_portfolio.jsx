@@ -49,8 +49,8 @@ export default function VeerendraPortfolio() {
     </p>
 
     <p className="mt-6 text-lg text-gray-300 max-w-xl">
-      I build reliable cloud infrastructure, CI/CD pipelines, and automation
-      systems with discipline, ownership, and production-first thinking.
+      I design and operate production-grade cloud infrastructure and CI/CD systems.
+DevOps Engineer with hands-on experience in AWS, Kubernetes, Terraform, and Jenkins — focused on reliability, automation, and scalable deployments.
     </p>
 
     <div className="mt-8 flex items-center space-x-4">
