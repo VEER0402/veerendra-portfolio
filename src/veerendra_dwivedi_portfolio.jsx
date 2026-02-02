@@ -157,10 +157,11 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">Linux & Scripting</h4>
               <ul className="mt-3 text-gray-300 space-y-1">
-                <li>Linux administration and kernel/process basics</li>
-                <li>Shell scripting & automation (organize.sh, cron jobs, systemd)</li>
-                <li>Process management, log collection and rotation</li>
-                <li>Small automation projects to improve developer workflows</li>
+                <li>Linux server administration (processes, services, networking basics).</li>
+                <li>Shell/Bash scripting for automation, deployment support, and operational tasks.</li>
+                <li>Cron jobs and scheduled automation for maintenance activities.</li>
+                <li>Log monitoring and troubleshooting using system logs and application logs.</li>
+                <li>Performance and resource checks (CPU, memory, disk) during production issues.</li>
               </ul>
             </div>
 
