@@ -525,14 +525,14 @@ understanding application deployment and runtime behavior.</li>
              <ul className="mt-3 text-gray-300 space-y-2">
   <li>
     <strong>Email:</strong>
-    <a
+    {/* <a
       href="mailto:work.veerendra1999@gmail.com"
       className="text-blue-300 ml-1"
       target="_blank"
       rel="noopener noreferrer"
     >
       work.veerendra1999@gmail.com
-    </a>
+    </a> */}
   </li>
 
   <li>
