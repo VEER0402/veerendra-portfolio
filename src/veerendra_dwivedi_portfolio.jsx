@@ -1,5 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+
+
 
 const projectStyles = {
   ci: "border-blue-500/40 hover:border-green-400",
@@ -11,6 +14,41 @@ const projectStyles = {
 };
 
 export default function VeerendraPortfolio() {
+ const sendEmail = (e) => {
+  e.preventDefault();
+
+  const formData = {
+    name: e.target.name.value,
+    email: e.target.email.value,
+    message: e.target.message.value,
+  };
+
+emailjs.send(
+  "service_vttwakm",
+  "template_hq1xgqj",
+  {
+    name: e.target.name.value,
+    email: e.target.email.value,
+    message: e.target.message.value,
+  },
+  "an43mt0FVVJB94uu2"
+)
+
+
+    .then(
+      (result) => {
+        console.log("SUCCESS!", result.text);
+        alert("Message sent successfully 🚀");
+        e.target.reset();
+      },
+      (error) => {
+        console.error("FAILED...", error);
+        alert("Failed to send message ❌");
+      }
+    );
+};
+
+
   return (
     <div className="min-h-screen bg-gray-900 text-white antialiased">
       {/* Container */}
@@ -548,12 +586,32 @@ understanding application deployment and runtime behavior.</li>
               </div>
             </div>
 
-            <form className="bg-gray-800 p-6 rounded-lg" onSubmit={(e) => e.preventDefault()}>
+            <form className="bg-gray-800 p-6 rounded-lg" onSubmit={sendEmail}>
               <h4 className="font-semibold">Message</h4>
               <div className="mt-3 space-y-3">
-                <input placeholder="Your name" className="w-full p-3 rounded bg-gray-900 border border-gray-700 text-sm" />
-                <input placeholder="Your email" className="w-full p-3 rounded bg-gray-900 border border-gray-700 text-sm" />
-                <textarea placeholder="Your message" rows={5} className="w-full p-3 rounded bg-gray-900 border border-gray-700 text-sm" />
+<input
+  id="name"
+  name="name"
+  placeholder="Your name"
+  className="w-full p-3 rounded bg-gray-900 border border-gray-700 text-sm"
+/>
+
+<input
+  id="email"
+  name="email"
+  type="email"
+  placeholder="Your email"
+  className="w-full p-3 rounded bg-gray-900 border border-gray-700 text-sm"
+/>
+
+<textarea
+  id="message"
+  name="message"
+  placeholder="Your message"
+  rows={5}
+  className="w-full p-3 rounded bg-gray-900 border border-gray-700 text-sm"
+/>
+
                 <button type="submit" className="w-full px-4 py-3 rounded bg-blue-600 hover:bg-blue-500">Send message</button>
               </div>
             </form>
