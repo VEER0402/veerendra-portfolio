@@ -187,12 +187,12 @@ Pipeline definitions.</li>
           <div className="mt-6 bg-gray-800 p-5 rounded-lg">
             <h4 className="font-semibold">Personal Skills</h4>
             <div className="mt-3 grid grid-cols-2 md:grid-cols-4 gap-3 text-gray-300">
-              <div>Ownership mindset</div>
-              <div>Calm problem-solving</div>
-              <div>Strong discipline</div>
-              <div>Team collaboration</div>
-              <div>Long-term thinking</div>
-              <div>Responsibility-driven</div>
+              <div>Ownership & accountability</div>
+              <div>Calm under production pressure</div>
+              <div>Strong discipline & consistency</div>
+              <div>Problem-solving mindset</div>
+              <div>Reliability in critical deployments</div>
+              <div>Team-first collaboration</div>
               <div>High reliability</div>
               <div>Focused execution</div>
             </div>
