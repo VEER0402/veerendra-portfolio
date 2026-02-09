@@ -173,10 +173,13 @@ My work revolves around infrastructure as code, Docker & Kubernetes workloads, G
             <div className="bg-gray-800 p-5 rounded-lg">
               <h4 className="font-semibold">Programming & Tools</h4>
               <ul className="mt-3 text-gray-300 space-y-1">
-                <li>Git & GitHub for version control, branching strategies, and CI/CD workflow integration.</li>
-                <li>YAML & JSON configuration for Kubernetes, Terraform, and pipeline definitions.</li>
-                <li>REST API usage for automation and system integrations.</li>
-                <li>Basic scripting logic understanding for debugging pipelines and automation scripts.</li>
+                <li>Git & GitHub (branching, PRs, conflict resolution, tagging).</li>
+                <li>CI/CD pipeline scripting (Jenkinsfile, GitHub Actions YAML).</li>
+                <li>YAML & JSON for:Kubernetes manifests ,
+                                    Terraform modules , 
+Pipeline definitions.</li>
+                <li>Debugging pipelines using logs, exit codes, and script outputs.</li>
+                <li>Strong understanding of configuration-driven systems.</li>
               </ul>
             </div>
           </div>
