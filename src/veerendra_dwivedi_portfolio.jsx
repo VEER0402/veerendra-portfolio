@@ -259,123 +259,123 @@ tech: ["Shell", "GitHub API", "CI"],
     link: "https://github.com/VEER0402/NodeHealth-Of-System"
   },
   {
-    title: "Linux Automation Projects",
-    category: "automation",
-    impact:
-      "Automated repetitive Linux housekeeping tasks using shell scripts, reducing manual effort and improving operational consistency.",
-    tech: ["Bash", "Cron", "Systemd"],
+    title: "Linux System Automation using Bash and Cron",
+category: "automation",
+impact:
+"Developed Bash automation scripts for routine Linux maintenance tasks including log cleanup, scheduled jobs, and system monitoring using cron and systemd timers.",
+tech: ["Bash", "Cron", "Systemd"],
     link: "https://github.com/VEER0402/Shell-Scripts"
   },
   {
-    title: "GitHub Actions CI with Docker",
-    category: "ci",
-    impact:
-      "Implemented a CI pipeline with test gating and Dockerized builds that blocks faulty code early, improving build reliability before deployment.",
-    tech: ["GitHub Actions", "Docker", "Jest", "Node.js"],
+    title: "Dockerized CI Pipeline using GitHub Actions",
+category: "ci",
+impact:
+"Implemented a CI pipeline using GitHub Actions that builds and tests applications inside Docker containers, ensuring consistent build environments and early test validation.",
+tech: ["GitHub Actions", "Docker", "Jest", "Node.js"],
     link: "https://github.com/VEER0402/github-actions-ci-docker"
   },
   {
-    title: "GitHub Actions CI Comparison",
-    category: "ci",
-    impact:
-      "Compared Jenkins and GitHub Actions pipelines to understand hosted vs self-managed CI tradeoffs, helping choose the right CI strategy per use case.",
-    tech: ["GitHub Actions", "Jenkins", "CI/CD"],
+    title: "CI Pipeline Comparison: Jenkins vs GitHub Actions",
+category: "ci",
+impact:
+"Evaluated hosted vs self-managed CI pipelines by implementing equivalent workflows in Jenkins and GitHub Actions, highlighting tradeoffs in scalability, maintenance, and build isolation.",
+tech: ["GitHub Actions", "Jenkins", "CI/CD"],
     link: "https://github.com/VEER0402/Github-Actions-Project"
   },
   {
     title: "Containerized CI/CD Pipeline using Jenkins + Docker",
-    category: "ci",
-    impact:
-      "Isolated Jenkins builds using Docker agents, ensuring consistent build environments and reducing dependency conflicts on the Jenkins server.",
-    tech: ["Jenkins", "Docker", "Java"],
+category: "ci",
+impact:
+"Designed a Jenkins pipeline using Docker agents to isolate build environments, eliminate dependency conflicts, and enable reproducible CI builds for Java applications.",
+tech: ["Jenkins", "Docker", "Java"],
     link: "https://github.com/VEER0402/jenkins-ci-java-with-docker"
   },
   {
-    title: "Jenkins CI without Docker",
-    category: "ci",
-    impact:
-      "Built a traditional Jenkins CI pipeline to understand server-based build execution and its limitations compared to containerized pipelines.",
-    tech: ["Jenkins", "Maven", "Java 17"],
+    title: "Traditional Jenkins CI Pipeline (Server-Based Builds)",
+category: "ci",
+impact:
+"Implemented a traditional Jenkins pipeline executing builds directly on the Jenkins server to analyze limitations of non-containerized CI environments.",
+tech: ["Jenkins", "Maven", "Java 17"],
     link: "https://github.com/VEER0402/jenkins-ci-java-without-docker"
   },
   {
-    title: "Terraform Infrastructure Projects",
-    category: "infra",
-    impact:
-      "Converted manual AWS provisioning into Terraform-based workflows, enabling repeatable infrastructure creation and faster environment recovery.",
-    tech: ["Terraform", "AWS", "IaC"],
+    title: "AWS Infrastructure Provisioning using Terraform",
+category: "infra",
+impact:
+"Provisioned AWS infrastructure including EC2, IAM, and networking components using Terraform to enable repeatable environment creation and infrastructure version control.",
+tech: ["Terraform", "AWS", "IaC"],
     link: "https://github.com/VEER0402/terraform_projects"
   },
   {
-    title: "IaC Concepts & Notes",
-    category: "infra",
-    impact:
-      "Documented Infrastructure-as-Code best practices to improve long-term maintainability and reduce configuration drift.",
-    tech: ["Terraform", "IaC"],
+    title: "Infrastructure as Code Practices with Terraform",
+category: "infra",
+impact:
+"Documented Terraform best practices including state management, modular infrastructure design, and configuration drift prevention.",
+tech: ["Terraform", "IaC"],
     link: "https://github.com/VEER0402/IAC--Concepts"
   },
   {
-    title: "Ansible Configuration Management",
-    category: "infra",
-    impact:
-      "Automated configuration management across EC2 instances using Ansible, reducing manual setup time and ensuring consistent system state.",
-    tech: ["Ansible", "AWS EC2"],
+   title: "Server Configuration Automation using Ansible",
+category: "infra",
+impact:
+"Automated configuration management across multiple EC2 instances using Ansible playbooks to ensure consistent server setup and reduce manual provisioning effort.",
+tech: ["Ansible", "AWS EC2"],
     link: "https://github.com/VEER0402/ansible-examples"
   },
   {
-    title: "Node App Deployment on AWS",
-    category: "aws",
-    impact:
-      "Deployed a Node.js application on AWS EC2 with IAM-based access control, improving deployment security and environment isolation.",
-    tech: ["AWS EC2", "IAM", "Node.js"],
+    title: "Node.js Application Deployment on AWS EC2",
+category: "aws",
+impact:
+"Deployed a containerized Node.js application on AWS EC2 with IAM-based access control, improving deployment security and environment isolation.",
+tech: ["AWS EC2", "IAM", "Node.js"],
     link: "https://github.com/VEER0402/aws-session"
   },
   {
-    title: "Contact Manager Backend",
-    category: "frontend",
-    impact:
-      "Built REST APIs for a contact management system, strengthening backend fundamentals and API-driven system design.",
-    tech: ["Spring Boot", "MySQL"],
+    title: "REST API Backend for Contact Management System",
+category: "backend",
+impact:
+"Built RESTful APIs using Spring Boot and MySQL for managing contacts, implementing CRUD operations and API-driven application architecture.",
+tech: ["Spring Boot", "MySQL"],
     link: "https://github.com/VEER0402/Contact-Manager-backend"
   },
   {
-    title: "Contact Manager Frontend",
-    category: "frontend",
-    impact:
-      "Developed an Angular-based UI consuming REST APIs.",
-    tech: ["Angular", "TypeScript"],
+    title: "Angular Frontend for Contact Management System",
+category: "frontend",
+impact:
+"Developed a responsive Angular frontend consuming REST APIs for a contact management platform, enabling full CRUD functionality through a modern UI.",
+tech: ["Angular", "TypeScript"],
     link: "https://github.com/VEER0402/Contact-Manager-frontend"
   },
  {
-    title: "githubactions_selfhosted_runner",
-    category: "CI",
-    impact:
-      "Deployed app using selfhosted_runner.",
-    tech: ["GitHub Actions", "selfhosted_runner"],
+   title: "Self-Hosted GitHub Actions Runner Setup",
+category: "ci",
+impact:
+"Configured and deployed a self-hosted GitHub Actions runner on Linux to execute CI jobs on custom infrastructure with greater control over build environments.",
+tech: ["GitHub Actions", "Self-hosted Runner"],
     link: "https://github.com/VEER0402/githubactions_selfhosted_runner"
   },
  {
-    title: "Docker",
-    category: "CD",
-    impact:
-      "reduces image layers (potentially smaller/faster builds.",
-    tech: ["Docker"],
+   title: "Docker Image Optimization & Containerization",
+category: "cd",
+impact:
+"Containerized applications using Docker and optimized images with multi-stage builds to reduce image size and improve deployment efficiency.",
+tech: ["Docker"],
     link: "https://github.com/VEER0402/Docker"
   },
  {
-    title: "Docker Compose",
-    category: "CD",
-    impact:
-      "Compose unifies your multi-container app into one config that boots everything together.",
-    tech: ["Docker"],
+    title: "Multi-Container Application using Docker Compose",
+category: "cd",
+impact:
+"Orchestrated multi-container application environments using Docker Compose, enabling consistent local development and service dependency management.",
+tech: ["Docker", "Docker Compose"],
     link: "https://github.com/VEER0402/Docker-compose"
   },
  {
-    title: "MERN-Docker-compose",
-    category: "CD",
-    impact:
-      "Prepares the project for production-like setups (CI/CD, scaling, volume persistence, etc.)",
-    tech: ["Docker"],
+   title: "MERN Stack Deployment using Docker Compose",
+category: "cd",
+impact:
+"Containerized a MERN stack application using Docker Compose to simulate production-style environments with isolated services and persistent volumes.",
+tech: ["Docker", "Docker Compose", "MERN"],
     link: "https://github.com/VEER0402/mern-docker-compose"
   }  ].map((p) => (
         <motion.article
