@@ -251,11 +251,11 @@ Pipeline definitions.</li>
             {/* Project Card */}
             {[
               {
-    title: "Access & Health Automation",
-    category: "automation",
-    impact:
-      "Reduced manual access audits and health checks by automating user access validation and EC2 health monitoring, minimizing human error in routine operations.",
-    tech: ["Shell", "GitHub API", "CI"],
+    title: "Automated Access Validation & EC2 Health Monitoring",
+category: "automation",
+impact:
+"Automated user access validation and EC2 instance health checks using shell scripts and GitHub API, reducing manual audits and improving operational reliability.",
+tech: ["Shell", "GitHub API", "CI"],
     link: "https://github.com/VEER0402/NodeHealth-Of-System"
   },
   {
@@ -377,15 +377,7 @@ Pipeline definitions.</li>
       "Prepares the project for production-like setups (CI/CD, scaling, volume persistence, etc.)",
     tech: ["Docker"],
     link: "https://github.com/VEER0402/mern-docker-compose"
-  },
-  {
-    title: "Future DevOps Projects",
-    category: "future",
-    impact:
-      "Planned work covering Kubernetes, monitoring, and SRE practices to deepen production-grade DevOps expertise.",
-    tech: ["Kubernetes", "Observability"],
-    link: "#"
-  }   ].map((p) => (
+  }  ].map((p) => (
         <motion.article
   key={p.title}
   whileHover={{ y: -6 }}
