@@ -283,7 +283,7 @@ Pipeline definitions.</li>
     link: "https://github.com/VEER0402/Github-Actions-Project"
   },
   {
-    title: "Jenkins CI with Docker Agent",
+    title: "Containerized CI/CD Pipeline using Jenkins + Docker",
     category: "ci",
     impact:
       "Isolated Jenkins builds using Docker agents, ensuring consistent build environments and reducing dependency conflicts on the Jenkins server.",
