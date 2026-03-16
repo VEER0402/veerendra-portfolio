@@ -83,12 +83,15 @@ emailjs.send(
     </h2>
 
     <p className="mt-3 text-xl text-blue-300 font-medium">
-      DevOps Engineer
+      DevOps Engineer | CI/CD | Docker | Kubernetes | AWS | Terraform
     </p>
 
     <p className="mt-6 text-lg text-gray-300 max-w-xl">
-      I design and operate production-grade cloud infrastructure and CI/CD systems.
-DevOps Engineer with hands-on experience in AWS, Kubernetes, Terraform, and Jenkins — focused on reliability, automation, and scalable deployments.
+      DevOps Engineer focused on building automated CI/CD pipelines, 
+containerized deployments, and infrastructure as code.
+
+Hands-on experience with Docker, Kubernetes, Terraform, Jenkins, 
+GitHub Actions, and AWS through real-world infrastructure projects.
     </p>
 
     <div className="mt-8 flex items-center space-x-4">
