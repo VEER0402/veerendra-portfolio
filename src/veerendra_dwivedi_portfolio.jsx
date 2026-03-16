@@ -244,7 +244,7 @@ Pipeline definitions.</li>
       {/* Projects */}
       <section id="projects" className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-12">
-          <h3 className="text-2xl font-bold">Selected Projects</h3>
+          <h3 className="text-2xl font-bold">Projects</h3>
           <p className="mt-2 text-gray-400">Practical, hands-on projects demonstrating automation, tooling and infrastructure skills.</p>
 
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -413,6 +413,76 @@ tech: ["Docker", "Docker Compose", "MERN"],
           </div>
         </div>
       </section>
+
+<section id="operations" className="border-t border-gray-800">
+  <div className="max-w-6xl mx-auto px-6 py-12">
+
+    <h3 className="text-2xl font-bold">Operational Experience</h3>
+    <p className="mt-2 text-gray-400">
+      Practical debugging and operational situations handled while building CI/CD pipelines,
+      infrastructure and containerized deployments.
+    </p>
+
+    <div className="mt-6 grid md:grid-cols-2 gap-6">
+
+      {/* CI/CD */}
+      <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+        <h4 className="font-semibold">CI Pipeline Failure & Code Quality Gates</h4>
+        <p className="text-sm text-gray-300 mt-2">
+          While building CI pipelines, builds failed during SonarQube quality gates and Trivy image scans.
+          Since I previously worked on application code, it was easier to trace the issue back to dependency
+          vulnerabilities and failing unit tests. Fixed the issues by updating dependencies, adjusting
+          build configuration and ensuring the pipeline blocks unsafe builds before deployment.
+        </p>
+        <p className="text-xs text-gray-400 mt-3">
+          Tools: Jenkins, GitHub Actions, SonarQube, Trivy, Maven
+        </p>
+      </div>
+
+      {/* Terraform */}
+      <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+        <h4 className="font-semibold">Terraform Infrastructure State Issues</h4>
+        <p className="text-sm text-gray-300 mt-2">
+          While provisioning AWS resources using Terraform, faced situations where infrastructure
+          already existed but Terraform state did not match the real environment. Investigated using
+          terraform plan and terraform state commands to detect drift and reconcile the infrastructure
+          state with declared configuration.
+        </p>
+        <p className="text-xs text-gray-400 mt-3">
+          Tools: Terraform, AWS EC2, Terraform State
+        </p>
+      </div>
+
+      {/* Docker / K8s */}
+      <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+        <h4 className="font-semibold">Container Runtime & Deployment Issues</h4>
+        <p className="text-sm text-gray-300 mt-2">
+          While containerizing applications, faced issues where containers failed to start due to
+          incorrect environment variables, port conflicts or missing runtime dependencies.
+          Investigated container logs and Docker runtime behavior to identify configuration errors
+          and fix container startup issues.
+        </p>
+        <p className="text-xs text-gray-400 mt-3">
+          Tools: Docker logs, Docker Compose, Kubernetes manifests
+        </p>
+      </div>
+
+      {/* Monitoring */}
+      <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+        <h4 className="font-semibold">Monitoring Alerts & System Investigation</h4>
+        <p className="text-sm text-gray-300 mt-2">
+          While monitoring infrastructure metrics, alerts indicated abnormal CPU and memory usage.
+          Investigated system processes and logs to identify resource-heavy services and restart
+          failing components to stabilize the environment.
+        </p>
+        <p className="text-xs text-gray-400 mt-3">
+          Tools: Prometheus, Grafana, Linux system logs
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* Experience */}
       <section id="experience" className="border-t border-gray-800">
