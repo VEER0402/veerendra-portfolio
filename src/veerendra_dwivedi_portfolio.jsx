@@ -600,18 +600,6 @@ understanding application deployment and runtime behavior.</li>
     </a>
   </li> */}
 
-<li>
-    <strong>Email:</strong>
-    <a
-      href="mailto:work.veerendra1999@gmail.com"
-      className="text-blue-300 ml-1"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      work.veerendra1999@gmail.com
-    </a>
-  </li>
-
   <li>
     <strong>GitHub:</strong>
     <a
