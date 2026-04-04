@@ -433,6 +433,26 @@ tech: ["Docker", "Docker Compose", "MERN"],
 
     <div className="mt-6 grid md:grid-cols-2 gap-6">
 
+	{/* AWS Infra Debugging */}
+<div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+  <h4 className="font-semibold">AWS Load Balancing & Private Network Access Issues</h4>
+  <p className="text-sm text-gray-300 mt-2">
+    While deploying a Python application behind an Application Load Balancer using Auto Scaling Group,
+    faced intermittent failures where requests were inconsistently served. Identified that the application
+    was deployed on only one EC2 instance while the load balancer was routing traffic to multiple instances.
+    
+    Additionally, encountered connectivity issues while accessing private EC2 instances due to incorrect
+    subnet placement and missing bastion host setup. Debugged SSH timeouts by verifying subnet routing,
+    security groups, and public vs private subnet configurations.
+
+    Resolved issues by ensuring consistent application deployment across all instances, properly configuring
+    target group health checks, and implementing a bastion host for secure access to private instances.
+  </p>
+  <p className="text-xs text-gray-400 mt-3">
+    Tools: AWS EC2, VPC, Auto Scaling, Load Balancer, Bastion Host, SSH, SCP
+  </p>
+</div>
+
       {/* CI/CD */}
       <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
         <h4 className="font-semibold">CI Pipeline Failure & Code Quality Gates</h4>
