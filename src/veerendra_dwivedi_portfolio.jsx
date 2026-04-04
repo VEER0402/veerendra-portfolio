@@ -250,6 +250,14 @@ Pipeline definitions.</li>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Project Card */}
             {[
+{
+  title: "AWS Production-Style Infrastructure with ASG, ALB & Bastion",
+  category: "cloud",
+  impact:
+    "Designed and deployed a secure AWS architecture with private EC2 instances (Auto Scaling Group), Application Load Balancer, and Bastion Host access. Diagnosed load balancing issues caused by partial deployment and improved traffic routing reliability.",
+  tech: ["AWS", "EC2", "VPC", "Auto Scaling", "Load Balancer", "Bastion Host"],
+  link: "https://github.com/VEER0402/aws-vpc-auto-scaling-bastion-architecture"
+},
               {
     title: "Automated Access Validation & EC2 Health Monitoring",
 category: "automation",
