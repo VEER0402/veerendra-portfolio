@@ -250,6 +250,16 @@ Pipeline definitions.</li>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Project Card */}
             {[
+
+    {
+  title: "Automated AWS Infrastructure Deployment using Terraform, CI/CD & Remote State Management",
+  category: "cloud",
+  impact:
+    "A production-style Terraform project that provisions AWS infrastructure using modular architecture, remote state management (S3 + DynamoDB), and CI/CD automation with GitHub Actions. Supports multi-environment deployment (dev & prod) with controlled production approvals.",
+  tech: ["AWS", "EC2", "VPC", "S3", "DynmoDB", "State Management"],
+  link: "https://github.com/VEER0402/InfraForge"
+},
+
 {
   title: "AWS Production-Style Infrastructure with ASG, ALB & Bastion",
   category: "cloud",
