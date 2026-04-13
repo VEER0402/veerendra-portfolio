@@ -443,6 +443,28 @@ tech: ["Docker", "Docker Compose", "MERN"],
 
     <div className="mt-6 grid md:grid-cols-2 gap-6">
 
+
+<div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+  <h4 className="font-semibold">Operational Experience (Terraform CI/CD Project)</h4>
+  <p className="text-sm text-gray-300 mt-2">
+    While building Terraform-based AWS infrastructure with CI/CD, faced multiple real-world issues related to state management, pipeline execution, and networking configuration.
+
+Encountered Terraform state mismatches and learned how to identify drift using plan and state commands, along with the importance of remote state (S3) and locking (DynamoDB) for consistency.
+
+Faced CI/CD pipeline failures due to YAML syntax errors and credential misconfiguration, which were resolved by debugging GitHub Actions logs and correcting workflow structure.
+
+Also experienced EC2 accessibility issues due to networking misconfigurations, leading to a deeper understanding of public subnet setup, route tables, and security group rules.
+
+Additionally, integrated Checkov for security scanning, identified misconfigurations, and understood how to balance strict enforcement with practical implementation.
+
+Overall, this project improved my debugging, problem-solving, and real-world infrastructure handling skills.
+
+  </p>
+  <p className="text-xs text-gray-400 mt-3">
+    Tools: AWS EC2, VPC, Auto Scaling, Load Balancer, Bastion Host, SSH, SCP
+  </p>
+</div>
+
 	{/* AWS Infra Debugging */}
 <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
   <h4 className="font-semibold">AWS Load Balancing & Private Network Access Issues</h4>
