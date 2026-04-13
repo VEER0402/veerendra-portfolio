@@ -571,7 +571,7 @@ understanding application deployment and runtime behavior.</li>
             <div className="bg-gray-800 p-5 rounded-lg">
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-semibold">UI Developer — TCS (2021–2022)</h4>
+                  <h4 className="font-semibold">UI Developer — Phonon.IO (2021–2022)</h4>
                   <p className="text-sm text-gray-400 mt-1">Built UI modules using TypeScript, HTML and CSS; collaborated with backend teams for production-ready components.</p>
                 </div>
                 <div className="text-sm text-gray-400">2021–2022</div>
