@@ -127,7 +127,7 @@ GitHub Actions, and AWS through real-world infrastructure projects.
       </div>
 
       <p className="mt-6 text-gray-300 text-center">
-        Disciplined. Calm. Reliable.
+        If it’s manual, I automate it.
       </p>
     </div>
   </motion.div>
