@@ -606,7 +606,7 @@ Actively supported production systems by troubleshooting application and infrast
 </li>
 
 <li>
-Earlier contributed to frontend development using Angular and TypeScript, leveraging this experience to better understand application behavior, optimize deployments, and bridge the gap between development and operations.
+Earlier contributed to frontend development using Angular and TypeScript, leveraging this experience to better understand application behavior, optimize deployments, and bridge the gap between development and operations..
 </li>
 
 </ul>
