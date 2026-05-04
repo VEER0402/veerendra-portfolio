@@ -606,7 +606,7 @@ Actively supported production systems by troubleshooting application and infrast
 </li>
 
 <li>
-Earlier contributed to frontend development using Angular and TypeScript, leveraging this experience to better understand application behavior, optimize deployments, and bridge the gap between development and operations..
+Earlier contributed to frontend development using Angular and TypeScript, leveraging this experience to better understand application behavior, optimize deployments, and bridge the gap between development and operations.
 </li>
 
 </ul>
@@ -621,20 +621,45 @@ Earlier contributed to frontend development using Angular and TypeScript, levera
                 <div className="text-sm text-gray-400">2021–2022</div>
               </div>
 
-              <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
-                <li>Worked as a full-time SDE Trainee, contributing to UI and application development.</li>
+             <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
 
-<li>Built and enhanced UI components using Angular, HTML, CSS, TypeScript, and Bootstrap.</li>
+<li>
+Worked as a full-time SDE Trainee, contributing to UI and application development for production-grade web applications in an agile environment.
+</li>
 
-<li>Gained hands-on exposure to Java-based applications, Apache Tomcat, and enterprise development workflows.</li>
+<li>
+Developed and enhanced responsive UI components using Angular, HTML, CSS, TypeScript, and Bootstrap, improving overall user experience and performance.
+</li>
 
-<li>Integrated frontend modules with backend services and performed API testing and validation.</li>
+<li>
+Integrated 10+ RESTful APIs for real-time data fetching, reducing data latency by ~15% and ensuring seamless data flow for 1,000+ concurrent users.
+</li>
 
-<li>Conducted unit testing and optimized frontend performance.</li>
+<li>
+Collaborated with backend teams to integrate frontend modules with Java-based services, gaining exposure to enterprise application architecture and Apache Tomcat deployments.
+</li>
 
-<li>Collaborated with QA teams to reproduce issues and validate bug fixes.</li>
+<li>
+Performed API testing and validation using tools like Postman, ensuring data accuracy and reliability across application workflows.
+</li>
 
-              </ul>
+<li>
+Conducted unit testing and optimized frontend performance, improving load times and reducing unnecessary re-renders in Angular components.
+</li>
+
+<li>
+Worked closely with QA teams to reproduce issues, validate bug fixes, and ensure stable production releases.
+</li>
+
+<li>
+Participated in code reviews and followed best practices for clean, maintainable, and scalable code.
+</li>
+
+<li>
+Gained foundational understanding of application lifecycle, deployment workflows, and debugging, which later helped in transitioning effectively into DevOps responsibilities.
+</li>
+
+</ul>
             </div>
           </div>
         </div>
