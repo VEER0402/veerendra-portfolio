@@ -554,40 +554,62 @@ Overall, this project improved my debugging, problem-solving, and real-world inf
               <div className="flex items-center justify-between">
                 <div>
                   <h4 className="font-semibold">DevOps Engineer — 2022–Present</h4>
-                  <p className="text-sm text-gray-400 mt-1">Infrastructure automation, CI/CD, shell scripting, GitHub integrations, Kubernetes & observability.</p>
+                  <p className="text-sm text-gray-400 mt-1">Infrastructure automation, CI/CD, Kubernetes, AWS, and observability.</p>
                 </div>
                 <div className="text-sm text-gray-400">Present</div>
               </div>
 
               <ul className="mt-4 text-gray-300 list-disc list-inside space-y-1">
-        <li>Designed and maintained end-to-end CI/CD pipelines using Jenkins and GitHub Actions, automating code checkout,
-build, Docker image creation, security scanning, pushing images to ECR, and environment-based Kubernetes deployments.</li>
 
-<li> Optimized containerization using multi-stage Docker builds and distroless base images, reducing Docker image size
-by ~70% and improving security and deployment speed.</li>
+<li>
+Engineered end-to-end CI/CD pipelines using Jenkins and GitHub Actions for Java and Node.js applications, automating code checkout, build, Docker image creation, security scanning, pushing images to AWS ECR, and environment-based Kubernetes deployments, reducing deployment turnaround time by ~50%.
+</li>
 
-<li>Implemented and maintained self-hosted GitHub Actions and standardized Docker-based build workflows, enabling
-consistent CI/CD execution across development, testing, and production environments.</li>
+<li>
+Optimized containerization using multi-stage Docker builds and distroless base images, reducing Docker image size by ~70%, improving security posture, and accelerating deployment speed.
+</li>
 
-<li>Improved stability and reliability of deployment pipelines by enforcing environment consistency, automated
-validations, and controlled release strategies.</li>
+<li>
+Designed and maintained self-hosted GitHub Actions runners and standardized Docker-based build workflows, ensuring consistent and reliable CI/CD execution across development, testing, and production environments.
+</li>
 
-<li>Provisioned and managed infrastructure using Terraform and automated configuration tasks using Ansible,
-supporting environment-specific infrastructure setups.</li>
+<li>
+Improved stability and reliability of deployment pipelines by enforcing environment consistency, implementing automated validations, and adopting controlled release strategies, contributing to ~99.5% application uptime.
+</li>
 
-<li>Deployed and managed containerized applications on Kubernetes using Deployments, Services, ConfigMaps, and
-Ingress, implementing environment-based configurations and rolling updates for seamless releases.</li>
+<li>
+Provisioned and managed production-grade AWS infrastructure (EC2, VPC, S3, IAM, ECR) using Terraform with remote state management (S3 + DynamoDB locking), and automated configuration tasks using Ansible for environment-specific setups.
+</li>
 
-<li>Collaborated with client and cross-functional teams to translate business requirements into automated, stable
-deployment and infrastructure solutions.</li>
+<li>
+Deployed and managed containerized applications on Kubernetes (AWS EKS) using Deployments, Services, ConfigMaps, Secrets, and Ingress, implementing Rolling Updates and Horizontal Pod Autoscaling (HPA) to ensure high availability during traffic spikes.
+</li>
 
-<li> Actively supported production systems, troubleshooting application and infrastructure issues using logs, monitoring
-dashboards, and system metrics to restore services within SLA timelines.</li>
+<li>
+Integrated SonarQube and Trivy into CI/CD pipelines to enforce code quality and vulnerability scanning, reducing post-deployment defects by ~25% and improving overall security compliance.
+</li>
 
-<li>Earlier contributed to frontend application development using Angular and TypeScript, which helped in
-understanding application deployment and runtime behavior.</li>
+<li>
+Designed centralized monitoring and alerting using Prometheus, Grafana, and AWS CloudWatch, creating custom dashboards and alerts that reduced Mean Time to Recovery (MTTR) by ~30%.
+</li>
 
-              </ul>
+<li>
+Optimized cloud costs by identifying and decommissioning underutilized AWS resources, achieving ~15% reduction in monthly infrastructure expenses.
+</li>
+
+<li>
+Collaborated with client and cross-functional teams to standardize Git branching strategies, semantic versioning, and artifact promotion workflows, improving SDLC efficiency and release predictability.
+</li>
+
+<li>
+Actively supported production systems by troubleshooting application and infrastructure issues using logs, metrics, and monitoring dashboards, ensuring service restoration within SLA timelines.
+</li>
+
+<li>
+Earlier contributed to frontend development using Angular and TypeScript, leveraging this experience to better understand application behavior, optimize deployments, and bridge the gap between development and operations.
+</li>
+
+</ul>
             </div>
 
             <div className="bg-gray-800 p-5 rounded-lg">
