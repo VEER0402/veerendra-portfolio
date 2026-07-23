@@ -616,9 +616,9 @@ export default function VeerendraPortfolio() {
         <section id="pipeline" className="border-t border-slate-900 pt-16">
           <div className="space-y-2 mb-8">
             <div className="inline-flex items-center px-2 py-0.5 rounded bg-blue-500/10 border border-blue-500/20 font-mono text-xs text-blue-400">
-              [ PIPELINE CONTROLLER ]
+              [ CI/CD PIPELINE  ]
             </div>
-            <h3 className="text-2xl font-bold tracking-tight">Interactive CI/CD Deployment Flow</h3>
+            <h3 className="text-2xl font-bold tracking-tight"> CI/CD Deployment Flow</h3>
             <p className="text-slate-400 text-sm max-w-2xl">
               Interact with the deployment stages below to audit active console logstreams, build configurations, and Kubernetes EKS rollout variables.
             </p>
